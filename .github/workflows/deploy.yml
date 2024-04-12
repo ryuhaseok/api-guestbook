@@ -1,6 +1,9 @@
 name: Deploy GuestbookApp
 
 on:
+  workflow_dispatch:
+
+on:
   push:
     branches:
       - master # 또는 프로젝트의 기본 브랜치명

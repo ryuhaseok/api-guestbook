@@ -30,7 +30,7 @@ jobs:
       - name: Push Docker image to Docker Hub
         run: docker push ryuhaseok/guestbook:latest
         
-      	
+        
   SSH:
     needs: build-and-deploy
     runs-on: ubuntu-latest
